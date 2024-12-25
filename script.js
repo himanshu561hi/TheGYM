@@ -11,12 +11,12 @@ menuToggle.addEventListener('click', () => {
 
 // Close Sidebar
 closeBtn.addEventListener('click', () => {
-  sidebar.style.right = '-250px';
+  sidebar.style.right = '-300px';
   overlay.style.display = 'none';
 });
 
 overlay.addEventListener('click', () => {
-  sidebar.style.right = '-250px';
+  sidebar.style.right = '-300px';
   overlay.style.display = 'none';
 });
 
